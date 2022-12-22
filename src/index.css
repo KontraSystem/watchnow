@@ -1,0 +1,144 @@
+
+body {
+  position: absolute;
+  background-color: #10161D !important;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-link-custom, a {
+  color: #fbc500 !important;
+}
+
+.text-link-custom div {
+  background-color: rgb(16, 22, 29) !important;
+}
+
+.custom-dropdown-item {
+  color:  white !important;
+}
+
+.title {
+  background-color: #e8ae00 !important;
+  color: #10161D !important;
+  width: fit-content;
+}
+
+.custom-dropdown-item:hover {
+  background-color: rgb(16, 22, 0) !important;
+}
+
+.text-link-custom a:hover {
+  color: #e8ae00 !important;
+}
+
+.btn-custom {
+  color:  #10161D !important;
+  background-color: #fbc500 !important;
+  border-color:  #fbc500 !important;
+}
+
+.btn-custom-dark {
+  background-color: #10161D !important;
+  border-color: #10161D !important;
+}
+
+.btn-custom:hover {
+  background-color: #e8ae00 !important;
+  border-color:  #e8ae00 !important;
+}
+
+.btn-custom-dark:hover {
+  background-color: #19232e !important;
+  border-color:  #19232e !important;
+}
+
+.btn-custom-outline {
+  background-color: transparent !important;
+  border-color:  #fbc500 !important;
+}
+
+.btn-custom-outline:hover {
+  background-color: #e8ae00 !important;
+  border-color:  #e8ae00 !important;
+}
+
+
+.btn-custom-outline-dark {
+  background-color: transparent !important;
+  border-color:  #10161D !important;
+  color: #10161D !important;
+}
+
+.btn-custom-outline-dark:hover {
+  background-color: rgba(16, 22, 29, 0.1) !important;
+  border-color:  #19232e !important;
+  color: white !important;
+}
+
+.only-rounded-bottom-left-to-top-right {
+  border-top-left-radius:  0 !important;
+  border-bottom-left-radius:  var(--bs-border-radius) !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: var(--bs-border-radius) !important;
+}
+
+.home-container {
+  color: white;
+  background-image: linear-gradient(to bottom, transparent 10%, #10161D 30%), url('../public/background_home.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #10161D;
+}
+
+.home-container h4 {
+  color: #fbc500;
+}
+
+.home-container p {
+  color: grey;
+}
+
+.offcanvas-button {
+  display: none !important;
+}
+
+.search-movie-container {
+  width:  15vw !important;
+  
+}
+
+@media (max-width: 767.98px) {
+  .offcanvas-button {
+    display: block !important;
+  }
+  .search-bar {
+    display:  none !important;
+  }
+
+  .search-movie-container {
+    width:  39vw !important;
+    height:  70vh !important;
+  }
+}
+
+@media (max-width:  576px) {
+  .only-rounded-bottom-left-to-top-right {
+    display:  none !important;
+  }
+
+  .movie-detail-media {
+    display:  none !important;
+  }
+}
